@@ -1,9 +1,11 @@
 const fs = require("fs");
 const path = require("path");
-const {token} = require('../config.json')
+if(process.env.NODE_ENV !== 'production'){
+  require("dotenv").config();
+}
 const { Client, Collection, Events, GatewayIntentBits } = require("discord.js");
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-client.login(token);
+client.login(process.env.BOT_TOKEN);
 
 client.on('ready', ()=>console.log('Connected to API-bot! 🤖'));
 

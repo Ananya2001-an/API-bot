@@ -1,5 +1,7 @@
 const { REST, Routes } = require("discord.js");
-const { clientId, token } = require("../config.json");
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
 const fs = require("fs");
 const path = require("path");
 
@@ -14,7 +16,7 @@ for (const file of commandFiles) {
   commands.push(command.data.toJSON());
 }
 
-const rest = new REST({ version: "10" }).setToken(token);
+const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN);
 
 (async () => {
   try {
@@ -23,7 +25,7 @@ const rest = new REST({ version: "10" }).setToken(token);
     );
 
     const data = await rest.put(
-      Routes.applicationCommands(clientId),
+      Routes.applicationCommands(process.env.BOT_CLIENT_ID),
       { body: commands }
     );
 

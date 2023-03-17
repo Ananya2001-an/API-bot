@@ -17,6 +17,7 @@
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.21",
     "semantic-release": "^20.1.1"
   }
