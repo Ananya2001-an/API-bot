@@ -24,6 +24,7 @@ module.exports = {
     const res = await axios.get(
       `https://tenor.googleapis.com/v2/search?q=${query}&key=${key}`
     );
-    await interaction.reply(res.data.results[0].media_formats.gif.url);
+    const index = Math.floor(Math.random() * res.data.results.length);
+    await interaction.reply(res.data.results[index].media_formats.gif.url);
   },
 };
