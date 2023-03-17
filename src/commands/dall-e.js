@@ -32,11 +32,10 @@ module.exports = {
       n: 1,
       size: "1024x1024",
     });
-    const index = Math.floor(Math.random() * response.data.data.length);
     const image = new EmbedBuilder()
       .setColor(0x0099ff)
-      .setTitle(`DALL-E Image generation for prompt: "${prompt}"`)
-      .setImage(response.data.data[index].url);
+      .setTitle(`DALL-E image generation for prompt: "${prompt}"`)
+      .setImage(response.data.data[0].url)
     await interaction.editReply({ embeds: [image] });
   },
 };
