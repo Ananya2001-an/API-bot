@@ -1,7 +1,10 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/55504616/225830453-7b428ef9-ad78-466a-9c09-2326dc9bba8e.png" height=200>
 <h1>API bot 🤖</h1>
-<p>The API-bot is a discord bot that allows you to test different APIs in your discord server itself! You can write `/` command to see all available APIs. For each API query you must have the required credentials like API-key and required inputs.</p>
+
+[![Releases](https://github.com/Ananya2001-an/API-bot/actions/workflows/release.yml/badge.svg)](https://github.com/Ananya2001-an/API-bot/actions/workflows/release.yml)
+
+<p>The API-bot is a discord bot that allows you to test different APIs in your discord server itself! You can write '/' command to see all available APIs. For each API query you must have the required credentials like API-key and required inputs.</p>
 </div>
 
 <br>
@@ -23,9 +26,7 @@ Every command will start with a slash (`/`) and is integrated into Discord Slash
 
 ### 🕹️ Using the Bot:
 
-<a href="https://discord.com/api/oauth2/authorize?client_id=1085946999888691201&permissions=0&scope=bot%20applications.commands"><img align ="right" src="https://user-images.githubusercontent.com/55504616/225830453-7b428ef9-ad78-466a-9c09-2326dc9bba8e.png"><a>
-
-**Step 1:** First you need to invite the bot to the server. 👉
+**Step 1:** First you need to invite the bot to the server. 👉 <a href="https://discord.com/api/oauth2/authorize?client_id=1085946999888691201&permissions=0&scope=bot%20applications.commands"><img align="right" height=100 src="https://user-images.githubusercontent.com/55504616/225830453-7b428ef9-ad78-466a-9c09-2326dc9bba8e.png"><a>
  
 **Step 2:** Now you can choose different APIs using corresponding slash command.
 
