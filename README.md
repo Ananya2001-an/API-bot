@@ -14,6 +14,10 @@
 - [DALL-E](https://platform.openai.com/docs/guides/images/introduction)
 - [Tenor](https://developers.google.com/tenor/guides/quickstart)
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/55504616/225971169-a267b0a4-28ad-427d-ba8c-be75488848ad.gif">
+</p>
+
 ### ✍️ Commands:
 
 Every command will start with a slash (`/`) and is integrated into Discord Slash commands.
@@ -26,13 +30,11 @@ Every command will start with a slash (`/`) and is integrated into Discord Slash
 
 ### 🕹️ Using the Bot:
 
-**Step 1:** First you need to invite the bot to the server. 👉 <a href="https://discord.com/api/oauth2/authorize?client_id=1085946999888691201&permissions=0&scope=bot%20applications.commands"><img align="right" height=100 src="https://user-images.githubusercontent.com/55504616/225830453-7b428ef9-ad78-466a-9c09-2326dc9bba8e.png"><a>
+**Step 1:** First you need to invite the bot to the server. Click icon 👉 <a href="https://discord.com/api/oauth2/authorize?client_id=1085946999888691201&permissions=0&scope=bot%20applications.commands"><img align="right" height=100 src="https://user-images.githubusercontent.com/55504616/225830453-7b428ef9-ad78-466a-9c09-2326dc9bba8e.png"><a>
  
 **Step 2:** Now you can choose different APIs using corresponding slash command.
 
 **Step 3:** Read the official docs for the chosen API to get the needed credentials. Without it you won't be able to make any queries.
-
-<br/>
 
 ## 💻 Development:
 
@@ -44,6 +46,11 @@ npm install
 ```
 
 - Create a `.env` file in the root folder and add your Discord bot token and client id (Application ID) by creating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
+
+<details>
+<summary>Like this</summary>
+  <img src="https://user-images.githubusercontent.com/55504616/225972207-ed5d4cf1-ed1f-4d7b-a7f5-ddb21018e4e3.png">
+</details>
    
 ```txt
 BOT_TOKEN=xxxxxxx
