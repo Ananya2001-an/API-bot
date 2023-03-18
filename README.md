@@ -11,6 +11,8 @@
 
 ### 👨‍💻 APIs currently integrated
 
+> You can refer the [API-docs](API-docs.md) file for getting the credentials for each API that is available for testing in the bot. **You must follow the same docs that is given in the file for getting the keys or else the bot might not work.** 
+
 - [DALL-E](https://platform.openai.com/docs/guides/images/introduction)
 - [Tenor](https://developers.google.com/tenor/guides/quickstart)
 
@@ -38,6 +40,8 @@ Every command will start with a slash (`/`) and is integrated into Discord Slash
 
 ## 💻 Development:
 
+> **Remember to read the [Contributing](CONTRIBUTING.md) guide before you start developing.** 
+ 
 - Fork this repository. Later clone it for developing.
  
 - Install all the dependencies from [`package.json`](/package.json) file by running the below command in your terminal.
