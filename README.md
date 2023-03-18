@@ -13,8 +13,8 @@
 
 > You can refer the [API-docs](API-docs.md) file for getting the credentials for each API that is available for testing in the bot. **You must follow the same docs that is given in the file for getting the keys or else the bot might not work.** 
 
-- [DALL-E](https://platform.openai.com/docs/guides/images/introduction)
-- [Tenor](https://developers.google.com/tenor/guides/quickstart)
+- DALL-E
+- Tenor
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/55504616/225971169-a267b0a4-28ad-427d-ba8c-be75488848ad.gif">
@@ -24,11 +24,15 @@
 
 Every command will start with a slash (`/`) and is integrated into Discord Slash commands.
   
-- `/help` - to see all available commands and understand the bot's usage.
+- `/api-bot` - gives a brief intro about the bot.
+
+- `/commands` - to get all available commands.
   
 - `/tenor-gif` - query the Tenor API to get gifs.
   
-- `/dall-e` - query the DALL-E API to generate images based on text prompt.
+- `/dall-e image-generation` - query the DALL-E API to generate images based on text prompt.
+
+- `/dall-e text-completion` - query the DALL-E API to get text completion based on text prompt.
 
 ### 🕹️ Using the Bot:
 
@@ -49,7 +53,7 @@ Every command will start with a slash (`/`) and is integrated into Discord Slash
 npm install 
 ```
 
-- Create a `.env` file in the root folder and add your Discord bot token and client id (Application ID) by creating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
+- Create a `.env` file in the root folder and add your Discord bot token and client id (Application ID) by creating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications). You can refer the `.env.example` file.
 
 <details>
 <summary>Like this</summary>

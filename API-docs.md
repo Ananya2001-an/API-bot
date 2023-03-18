@@ -12,7 +12,14 @@ Below are the APIs currently integrated with API-bot. You can find the docs for 
   <tr>
     <td>DALL-E by OpenAI</td>
     <td>Image Generation</td>
-    <td>https://platform.openai.com/docs/guides/images/introduction</td>
+    <td>https://platform.openai.com/docs/guides/images</td>
+    <td>API key</td>
+  </tr>
+
+  <tr>
+    <td>DALL-E by OpenAI</td>
+    <td>Text Completion</td>
+    <td>https://platform.openai.com/docs/guides/completion</td>
     <td>API key</td>
   </tr>
   
