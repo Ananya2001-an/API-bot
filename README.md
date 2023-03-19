@@ -3,7 +3,10 @@
 <h1>API bot 🤖</h1>
 
 [![Releases](https://github.com/Ananya2001-an/API-bot/actions/workflows/release.yml/badge.svg)](https://github.com/Ananya2001-an/API-bot/actions/workflows/release.yml)
-
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Ananya2001-an/API-bot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ananya2001-an/API-bot)
+ 
 <p>The API-bot is a discord bot that allows you to test different APIs in your discord server itself! You can write '/' command to see all available APIs. For each API query you must have the required credentials like API-key and required inputs.</p>
 </div>
 
@@ -68,6 +71,8 @@ BOT_CLIENT_ID=xxxxxxx
 - Invite the bot to your testing server by generating a URL with appropriate scopes and permissions. You have to choose `scopes: bot, applications.commands` and `no bot permissions`. 
 
 - Run `npm run dev` in the terminal for running the bot. Bot will automatically refresh on changes made since this script executes `src/bot.js` file using `nodemon`. 
+ 
+> You can also use GitPod instead to develop. Make sure to add the env variables and then run script `npm run dev` in terminal. [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ananya2001-an/API-bot)
   
 ## 🎯 Aim of the project:
 
