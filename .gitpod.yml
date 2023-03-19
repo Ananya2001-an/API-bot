@@ -2,4 +2,3 @@
 tasks:
   - before: cp .env.example .env
     init: npm install 
-    command: npm run dev
