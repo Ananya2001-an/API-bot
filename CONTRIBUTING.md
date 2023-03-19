@@ -11,7 +11,7 @@ Thanks for deciding to contribute to the API-bot project. 💙 You have to follo
 ## 💖 Want to add an API?
 If you have an API suggestion for this bot you have to remember to make changes to the following files as well:
 - add docs link for the API in [API-docs](API-docs.md)
-- add slash command in [help](src/commands/help.js)
+- add slash command in [commands](src/commands/commands-list.js)
 - add API's name and slash command in [README](README.md)
 
 ## 💻 Development:
